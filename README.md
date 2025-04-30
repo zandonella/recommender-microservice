@@ -7,11 +7,15 @@ based on how well they match a user's preferences.
 
 ## Notes
 
-- This service is part of the CatCall platform and depends on three other
-  microservices:
-  - **Preferences Service** – for user filter settings
-  - **Favorites Service** – to exclude previously liked cats
-  - **Cat Database Service** – to retrieve cat listings
+- This service is part of the
+  [CatCall application](https://github.com/zandonella/CatCall) and depends on
+  three other microservices:
+  - [**Preferences Service**](https://github.com/zandonella/preferences-microservice)
+    – for user filter settings
+  - [**Favorites Service**](https://github.com/zandonella/favorites-microservice)
+    – to exclude previously liked cats
+  - [**Cat Database Service**](https://github.com/zandonella/cat-database-microservice)
+    – to retrieve cat listings
 - MongoDB is **not used** in this service.
 - Recommendations can be returned in **strict mode** (exact matches only) or
   **scored mode** (ranked by match strength).
